@@ -4,7 +4,7 @@
 <head>
     <!-- Basic Page Info -->
     <meta charset="utf-8" />
-    <title><?php isset( $pageTitle ) ? $pageTitle : 'New Page Title';?></title>
+    <title><?php echo isset( $pageTitle ) ? $pageTitle : 'New Page Title';?></title>
 
     <!-- Site favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/backend/vendors/images/apple-touch-icon.png"/>
