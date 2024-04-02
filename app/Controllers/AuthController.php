@@ -11,7 +11,7 @@ use App\Models\PasswordResetToken;
 use Carbon\Carbon;
 
 class AuthController extends BaseController {
-	protected $helpers = [ 'url', 'form' ];
+	protected $helpers = [ 'url', 'form', 'CIMail'];
 
 	public function loginForm() {
 		$data = [

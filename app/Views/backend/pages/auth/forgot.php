@@ -8,7 +8,7 @@
         Enter your email address to reset your password
     </h6>
 	<?php $validation = \Config\Services::validation(); ?>
-    <form action="<?php echo route_to('send_password_reset_link')?>" method="POST">
+    <form action="<?php echo route_to('admin.send_password_reset_link')?>" method="POST">
 		<?php echo csrf_field(); ?>
 
 		<?php if ( ! empty( session()->getFlashdata( 'success' ) ) ) { ?>
